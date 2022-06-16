@@ -1,0 +1,18 @@
+apiVersion: v1
+entries:
+  testchart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-06-16T09:37:32.418574377Z"
+    dependencies:
+    - name: mysql
+      repository: http://charts.bitnami.com/bitnami
+      version: ^8.8.6
+    description: A Helm chart for Kubernetes
+    digest: 2b1a51bb15a6ab1e5029f26268e9f861e8bf2d60795da351f5ad1b6eee1aa4ee
+    name: testchart
+    type: application
+    urls:
+    - testchart-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-06-16T09:37:32.413174115Z"
